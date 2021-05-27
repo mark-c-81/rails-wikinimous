@@ -10,7 +10,21 @@ a:hover {
 	color: #424242;
 }
 
+h2 a {
+	color: #424242 !important;
+}
+
 h2 a:hover {
 	color: #424242;
 	background-color: rgba(252, 171, 109, 0.5);
+}
+
+/*Below removes the green tick and border from forms*/
+
+.form-control.is-valid,
+.form-control.is-invalid {
+	border-color: inherit !important;
+    background-image: none !important;
+    box-shadow: inherit !important;
+    padding-right: inherit;
 }
